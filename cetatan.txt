@@ -1,0 +1,61 @@
+/// HTML ///
+<div class="list">
+    <ul>
+        <!-- ... existing content ... -->
+        <li data-id="${files[i].id}" data-name="${files[i].name}">
+            <span>${files[i].name}</span>
+            <span class="status-column" id="status-${files[i].id}"></span>
+            <svg onclick="expand(this)" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                <path d="M24 24H0V0h24v24z" fill="none" opacity=".87"/>
+                <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6-1.41-1.41z"/>
+            </svg>
+        </li>
+        <!-- ... existing content ... -->
+    </ul>
+</div>
+
+
+/// JS //
+function showList() {
+    gapi.client.drive.files.list({
+        // get parent folder id from localstorage
+        'q': `parents in "${localStorage.getItem('parent_folder')}"`
+    }).then(function (response) {
+        var files = response.result.files;
+        if (files && files.length > 0) {
+            listcontainer.innerHTML = '';
+            for (var i = 0; i < files.length; i++) {
+                listcontainer.innerHTML += `
+                    <li data-id="${files[i].id}" data-name="${files[i].name}">
+                        <span>${files[i].name}</span>
+                        <span class="status-column" id="status-${files[i].id}">${getStatusButton(files[i].id)}</span>
+                        <svg onclick="expand(this)" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                            <path d="M24 24H0V0h24v24z" fill="none" opacity=".87"/>
+                            <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6-1.41-1.41z"/>
+                        </svg>
+                    </li>
+                `;
+            }
+        } else {
+            listcontainer.innerHTML = '<div style="text-align: center;">No Files</div>'
+        }
+    })
+}
+
+// Helper function to get the status button based on file upload status
+function getStatusButton(fileId) {
+    // Check if the file has been uploaded
+    // You can modify this condition based on your specific criteria
+    if (fileHasBeenUploaded(fileId)) {
+        return '<button type="button" class="btn btn-success"><i class="bi bi-check-circle"></i></button>';
+    } else {
+        return '<button type="button" class="btn btn-warning"><i class="bi bi-exclamation-triangle"></i></button>';
+    }
+}
+
+// Example function to check if a file has been uploaded (modify based on your criteria)
+function fileHasBeenUploaded(fileId) {
+    // Implement your logic to check if the file has been uploaded
+    // For demonstration purposes, assuming it has been uploaded if fileId is not null
+    return fileId !== null;
+}

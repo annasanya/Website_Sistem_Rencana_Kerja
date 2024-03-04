@@ -1,0 +1,11 @@
+{
+    "require": {
+        "microsoft/microsoft-graph": "^2.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        },
+        "process-timeout": 600
+    }
+}
