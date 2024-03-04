@@ -42,7 +42,7 @@
                           <!-- Default panel contents -->
 
                           <!-- Table -->
-                          <table id="mytable" class="table">
+                          <table id="mytable" class="table-success">
                             <thead>
                               <tr>
                                 <th>Rencana Kerja</th>
@@ -82,77 +82,89 @@
           </div>
           <!-- Accordion Item 2 -->
           <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                      Perancangan Pembangunan
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <!-- awal -->
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-md-12">
-                            <h2>Table Upload Berkas</h2>
-                          </div>
-                        </div>
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                Perancangan Pembangunan
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <!-- awal -->
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h2>Table Upload Berkas</h2>
+                    </div>
+                  </div>
 
-                        <div class="row">
+                  <div class="row">
 
-                          <div class="col-md-12">
-                            <div class="widget blank no-padding">
-                              <div class="panel panel-default work-progress-table">
-                                <!-- Default panel contents -->
+                    <div class="col-md-12">
+                      <div class="widget blank no-padding">
+                        <div class="panel panel-default work-progress-table">
+                          <!-- Default panel contents -->
 
-                                <!-- Table -->
-                                <table id="mytable" class="table">
-                                  <thead>
-                                    <tr>
-                                      <th>Rencana Kerja</th>
-                                      <th>Produk Output</th>
-                                      <th>File</th>
-                                      <th>Status</th>
-                                    </tr>
-                                  </thead>
-                                  <tbody>
-                                    <tr>
-                                      <td rowspan="2">Pencanangan Pembangunan Zona Integritas</td>
-                                      <td rowspan="2">Piagam dan Dokumentasi</td>
-                                      <td>
-                                        <div class="mb-3">
-                                          <label for="formFileMultiplePiagam" class="form-label">Upload File Piagam</label>
-                                          <input class="form-control" type="file" id="fileInputPiagam" onchange="uploadFile2('fileInputPiagam', 'statusCellPiagam')" multiple driveItem="/me/drive/root/children/s93fcaa56994548c2a6759dc25c579bdc/children">
-                                        </div>
-                                      </td>
-                                      <td id="statusCellPiagam">
-                                        <span class="badge rounded-pill text-bg-warning">Upload</span>
-                                      </td>
-                                    </tr>
-                                    <tr>
-                                      <td>
-                                        <div class="mb-3">
-                                          <label for="formFileMultiple" class="form-label">Upload File Dokumentasi</label>
-                                          <input class="form-control" type="file" id="fileInputDokumentasi" onchange="uploadFile2('fileInputDokumentasi', 'statusCellDokumentasi')" multiple driveItem="/me/drive/root/children/s93fcaa56994548c2a6759dc25c579bdc/children">
-                                        </div>
-                                      </td>
-                                      <td id="statusCellDokumentasi">
-                                        <span class="badge rounded-pill text-bg-warning">Upload</span>
-                                      </td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </div>
-                            </div>
-                          </div>
+                          <!-- Table -->
+                          <table id="mytable" class="table">
+                            <thead>
+                              <tr>
+                                <th>Rencana Kerja</th>
+                                <th>Produk Output</th>
+                                <th>File</th>
+                                <th>Status</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td rowspan="2">Pencanangan Pembangunan Zona Integritas</td>
+                                <td rowspan="2">Piagam dan Dokumentasi</td>
+                                <td>
+                                  <div class="mb-3">
+                                    <label for="formFileMultiplePiagam" class="form-label">Upload File Piagam</label>
+                                    <input class="form-control" type="file" id="fileInputPiagam" onchange="uploadFile2('fileInputPiagam', 'statusCellPiagam')" multiple driveItem="/me/drive/root/children/s93fcaa56994548c2a6759dc25c579bdc/children">
+                                  </div>
+                                </td>
+                                <td id="statusCellPiagam">
+                                  <span class="badge rounded-pill text-bg-warning">Upload</span>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <div class="mb-3">
+                                    <label for="formFileMultiple" class="form-label">Upload File Dokumentasi</label>
+                                    <input class="form-control" type="file" id="fileInputDokumentasi" onchange="uploadFile2('fileInputDokumentasi', 'statusCellDokumentasi')" multiple driveItem="/me/drive/root/children/s93fcaa56994548c2a6759dc25c579bdc/children">
+                                  </div>
+                                </td>
+                                <td id="statusCellDokumentasi">
+                                  <span class="badge rounded-pill text-bg-warning">Upload</span>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
                         </div>
                       </div>
-                      <!-- akhir -->
-                      <!-- Button to send files in the second accordion -->
-                      <!-- <button type="button" class="btn btn-primary" id="upload" onclick="uploadFile2()">Kirim Berkas</button> -->
                     </div>
                   </div>
                 </div>
+                <!-- akhir -->
+                <!-- Button to send files in the second accordion -->
+                <!-- <button type="button" class="btn btn-primary" id="upload" onclick="uploadFile2()">Kirim Berkas</button> -->
+              </div>
+            </div>
+          </div>
   </section>
+  <style>
+    .accordion {
+      --bs-accordion-btn-color: ghostwhite;
+      --bs-accordion-btn-bg: blue;
+      --bs-accordion-active-color: maroon;
+      --bs-accordion-active-bg: lightblue;
+    }
+
+    .accordion-body {
+      background-color: blue;
+    }
+  </style>
 </main><!-- End #main -->
 <script src="script_sekre.js"></script>
 <?php include("template/footer.php"); ?>

@@ -7,8 +7,7 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/logo_djp1.png" rel="icon">
   <!-- Google Fonts -->
   <link href="https://fonts.gstatic.com" rel="preconnect">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -30,11 +29,11 @@
   <header id="header" class="header fixed-top d-flex align-items-center">
 
     <div class="d-flex align-items-center justify-content-between">
-      <a href="index.php" class="logo d-flex align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center">
         <!-- <img src="assets/img/logo_djp1.png" alt="" style="size: 100%;">
         <img src="assets/img/logo_djp2.png" alt=""> -->
-        <img src="assets/img/logo_djp1.png" class="rounded float-start" alt="...">
-        <img src="assets/img/logo_djp2.png" class="rounded float-end" alt="...">
+        <img src="assets/img/logo_djp1.png" class="rounded float-start" alt="logo kemenkeu">
+        <img src="assets/img/logo_djp2.png" class="rounded float-end" alt="logo djp">
         <span class="d-none d-lg-block" style="font-size: 110%;">KPP Pratama Yogyakarta</span>
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>

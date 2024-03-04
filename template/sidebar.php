@@ -4,7 +4,7 @@
       <ul class="sidebar-nav" id="sidebar-nav">
 
           <li class="nav-item">
-              <a class="nav-link collapsed" href="index.php">
+              <a class="nav-link collapsed" href="index.html">
                   <i class="bi bi-grid"></i>
                   <span>Halaman Utama</span>
               </a>
