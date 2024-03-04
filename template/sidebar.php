@@ -29,7 +29,7 @@
                   </li>
                   <li class="nav-heading">Sub Tim :</li>
                   <li>
-                      <a href="rencana_mp.php" class="active">
+                      <a href="rencana_mp.php">
                           <i class="bi bi-circle"></i><span>Manajemen Perubahan</span>
                       </a>
                   </li>
@@ -69,7 +69,7 @@
                       </a>
                   </li>
                   <li>
-                      <a href="rekap_mp.php" class="active">
+                      <a href="rekap_mp.php">
                           <i class="bi bi-circle"></i><span>Rekap Manajemen Perubahan</span>
                       </a>
                   </li>

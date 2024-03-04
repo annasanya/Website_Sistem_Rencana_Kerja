@@ -1,6 +1,6 @@
 <?php include("template/topbar.php"); ?>
 <?php include("template/sidebar.php"); ?>
-<!-- ini riyan -->
+
 <main id="main" class="main">
   <div class="pagetitle">
     <h1>Halaman Rencana Kerja Sekretariat</h1>
