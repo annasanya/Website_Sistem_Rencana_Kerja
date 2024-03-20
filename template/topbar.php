@@ -36,14 +36,30 @@
         <img src="assets/img/logo_djp2.png" class="rounded float-end" alt="logo djp">
         <span class="d-none d-lg-block" style="font-size: 110%;">KPP Pratama Yogyakarta</span>
       </a>
+    </div>
       <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->
+    <nav class="header-nav ms-auto">
+    <div class="header-title" style="color: #E8C43E;font-weight: bold"> <!-- Menambahkan warna putih -->
+      <h1>SISTEM RENCANA KERJA</h1>
+    </div>
+    <ul class="d-flex align-items-center">
+      <!-- Daftar menu navigasi -->
+    </ul>
+  </nav>
     <nav class="header-nav ms-auto">
       <ul class="d-flex align-items-center">
         <li class="nav-item d-block d-lg-none">
           <a class="nav-link nav-icon search-bar-toggle " href="#">
             <i class="bi bi-search"></i>
           </a>
+          <nav class="header-nav ms-auto">
+          <div class="header-title"> <!-- Tambahkan div baru untuk judul -->
+      </div>
+      <ul class="d-flex align-items-center">
+        <!-- Daftar menu navigasi -->
+      </ul>
+    </nav>
         </li><!-- End Search Icon-->
         <li class="nav-item dropdown pe-3">
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">

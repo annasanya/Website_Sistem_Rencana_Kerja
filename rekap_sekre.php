@@ -14,7 +14,7 @@
   </div><!-- End Page Title -->
 
   <div class="list">
-    <h3>All Backed Up Files</h3>
+    <h3 style="color: #fff;">All Backed Up Files</h3>
     <ul>
       <div style="text-align: center;">Sign In First</div>
     </ul>
@@ -26,6 +26,7 @@
       <li onclick="deleteFile(this)">Delete</li>
     </ul>
   </div>
+  </main>
   <style>
     .list {
       padding: 20px;

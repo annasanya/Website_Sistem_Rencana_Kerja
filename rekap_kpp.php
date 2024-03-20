@@ -16,9 +16,9 @@
   <div class="list">
     <h3>All Backed Up Files</h3>
     <ul>
-      <div style="text-align: center;">Sign In First</div>
+        <div style="text-align: center; color: white;">Sign In First</div>
     </ul>
-  </div>
+</div>
 
   <div class="expand-container" style="display: none;">
     <ul>
@@ -26,14 +26,17 @@
       <li onclick="deleteFile(this)">Delete</li>
     </ul>
   </div>
+  </main>
   <style>
     .list {
       padding: 20px;
       text-align: left;
+      color: #fff
     }
 
     .list h3 {
       margin-bottom: 15px;
+      color: #fff
     }
 
     .list ul {
@@ -129,3 +132,4 @@
 
 <script src="script_kpp.js"></script>
 <?php include("template/footer.php"); ?>
+  

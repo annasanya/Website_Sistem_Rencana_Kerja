@@ -26,6 +26,7 @@
       <li onclick="deleteFile(this)">Delete</li>
     </ul>
   </div>
+  </main>
   <style>
     .list {
       padding: 20px;

@@ -153,18 +153,6 @@
             </div>
           </div>
   </section>
-  <style>
-    .accordion {
-      --bs-accordion-btn-color: ghostwhite;
-      --bs-accordion-btn-bg: blue;
-      --bs-accordion-active-color: maroon;
-      --bs-accordion-active-bg: lightblue;
-    }
-
-    .accordion-body {
-      background-color: blue;
-    }
-  </style>
 </main><!-- End #main -->
 <script src="script_sekre.js"></script>
 <?php include("template/footer.php"); ?>

@@ -1,11 +1,11 @@
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
-    <div class="copyright">
+  <div class="copyright">
       &copy; Copyright <strong><span>KPP Pratama Yogyakarta</span></strong>. All Rights Reserved
     </div>
-    
-  </footer><!-- End Footer -->
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+</footer>
+<div class="clearfix"></div>
+
   <script async defer src="https://apis.google.com/js/api.js"></script>
   <script async defer src="https://accounts.google.com/gsi/client"></script>
   <!-- Vendor JS Files -->
@@ -28,3 +28,4 @@
 <script type="text/javascript" src="https://js.live.net/v7.2/OneDrive.js"></script>
 </body>
 </html>
+
