@@ -43,7 +43,7 @@
 
     .list ul li {
       list-style: none;
-      background-color: #4CAF50;
+      background-color: #E8C43E;
       /* Ubah warna latar belakang */
       color: #fff;
       /* Warna teks putih */
